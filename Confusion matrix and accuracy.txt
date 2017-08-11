@@ -1,0 +1,1 @@
+Confusion matrix and accuracy:Confusion matrx:                     classify label                 Iris-virginicaIris-setosaIris-versicolorSumIris-virginica8019Iris-setosa0808Iris-versicolor0088Sum88925Accuray: 0.96
