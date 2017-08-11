@@ -1,0 +1,13 @@
+RF aspen running
+
+scp /Users/yijia/PycharmProjects/DecisionTree/train.csv yijiaj@aspen.lti.cs.cmu.edu:/home/yijiaj
+
+scp /Users/yijia/PycharmProjects/DecisionTree/test_new.csv yijiaj@aspen.lti.cs.cmu.edu:/home/yijiaj
+
+scp /Users/yijia/Desktop/RFMapReduce_fe.py yijiaj@aspen.lti.cs.cmu.edu:/home/yijiaj
+
+[yijiaj@aspen ~]$ mkdir input
+
+scp /Users/yijia/Desktop/input_copy/* yijiaj@aspen.lti.cs.cmu.edu:/home/yijiaj/input
+
+[yijiaj@aspen ~]$ python RFMapReduce_fe.py /home/yijiaj/input
