@@ -1,0 +1,46 @@
+confusion matrix for all predictions
+['standing', 'walking', 'sittingdown', 'standingup', 'sitting’](predict)
+standing	[8575, 485, 124, 304, 3]
+walking		[12, 8635, 46, 19, 0]
+sittingdown	[0, 4, 2345, 8, 2]
+standingup	[2, 6, 23, 2427, 1]
+sitting		[0, 0, 1, 1, 10104]
+(Label)
+
+misclassification rate: 0.0314245
+Accuracy about 97%
+
+confusion matrix0	standing
+[8575, 916]
+[14, 23622]
+recall	0.903487514487
+precision	0.99837000815
+F1	0.948561946903
+
+confusion matrix1	walking
+[8635, 77]
+[495, 23920]
+recall	0.991161616162
+precision	0.94578313253
+F1	0.96794081381
+
+confusion matrix2	sittingdown
+[2345, 14]
+[194, 30574]
+recall	0.994065281899
+precision	0.923591965341
+F1	0.957533687219
+
+confusion matrix3	standingup
+[2427, 32]
+[332, 30336]
+recall	0.986986579911
+precision	0.87966654585
+F1	0.930241471828
+
+confusion matrix4	sitting
+[10104, 2]
+[6, 23015]
+recall	0.999802097764
+precision	0.99940652819
+F1	0.999604273843
