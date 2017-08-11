@@ -5,4 +5,7 @@ With two data science prj on Kaggle, solving by ML job, with result
 
 Feel free to use them...unless you are in CMU :) 
 
+---------
+这课是坑。
+
 
